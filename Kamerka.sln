@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamerka", "Kamerka\Kamerka.csproj", "{B200DD73-3D10-47AF-BE35-B815DC1C6680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Debug|x64.ActiveCfg = Debug|x64
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Debug|x64.Build.0 = Debug|x64
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Release|x64.ActiveCfg = Release|x64
+		{B200DD73-3D10-47AF-BE35-B815DC1C6680}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F17293D3-661B-4B68-9D53-38B1E5F8697A}
+	EndGlobalSection
+EndGlobal
