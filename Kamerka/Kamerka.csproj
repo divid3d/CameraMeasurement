@@ -97,30 +97,6 @@
     <Compile Include="DatabaseSettings.Designer.cs">
       <DependentUpon>DatabaseSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="blurPreview.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="blurPreview.Designer.cs">
-      <DependentUpon>blurPreview.cs</DependentUpon>
-    </Compile>
-    <Compile Include="deltaPreview.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="deltaPreview.Designer.cs">
-      <DependentUpon>deltaPreview.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
     <Compile Include="measuredObject.cs" />
     <Compile Include="nowy.cs">
       <SubType>Form</SubType>
@@ -128,37 +104,10 @@
     <Compile Include="nowy.Designer.cs">
       <DependentUpon>nowy.cs</DependentUpon>
     </Compile>
-    <Compile Include="thresholdPreview.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="thresholdPreview.Designer.cs">
-      <DependentUpon>thresholdPreview.cs</DependentUpon>
-    </Compile>
-    <Compile Include="grayPreview.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="grayPreview.Designer.cs">
-      <DependentUpon>grayPreview.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="blurPreview.resx">
-      <DependentUpon>blurPreview.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DatabaseSettings.resx">
       <DependentUpon>DatabaseSettings.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="deltaPreview.resx">
-      <DependentUpon>deltaPreview.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="grayPreview.resx">
-      <DependentUpon>grayPreview.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="nowy.resx">
       <DependentUpon>nowy.cs</DependentUpon>
@@ -172,9 +121,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="thresholdPreview.resx">
-      <DependentUpon>thresholdPreview.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

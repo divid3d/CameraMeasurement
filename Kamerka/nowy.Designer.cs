@@ -37,12 +37,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.seleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.internalCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.externalCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectVideoFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.databaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearButton = new System.Windows.Forms.Button();
-            this.internalCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.externalCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -52,9 +52,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 60);
+            this.pictureBox1.Location = new System.Drawing.Point(34, 75);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1371, 542);
+            this.pictureBox1.Size = new System.Drawing.Size(1533, 677);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -62,9 +63,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(30, 627);
+            this.button1.Location = new System.Drawing.Point(34, 784);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(326, 115);
+            this.button1.Size = new System.Drawing.Size(521, 144);
             this.button1.TabIndex = 1;
             this.button1.Text = "Start cam";
             this.button1.UseVisualStyleBackColor = true;
@@ -72,9 +74,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(418, 627);
+            this.button2.Location = new System.Drawing.Point(1070, 784);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(326, 115);
+            this.button2.Size = new System.Drawing.Size(497, 144);
             this.button2.TabIndex = 2;
             this.button2.Text = "Analyse start";
             this.button2.UseVisualStyleBackColor = true;
@@ -83,31 +86,34 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(1416, 620);
+            this.pictureBox2.Location = new System.Drawing.Point(1593, 850);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(464, 345);
+            this.pictureBox2.Size = new System.Drawing.Size(260, 122);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
             // textbox_log
             // 
-            this.textbox_log.Location = new System.Drawing.Point(30, 802);
+            this.textbox_log.Location = new System.Drawing.Point(34, 1002);
+            this.textbox_log.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textbox_log.Multiline = true;
             this.textbox_log.Name = "textbox_log";
             this.textbox_log.ReadOnly = true;
             this.textbox_log.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textbox_log.Size = new System.Drawing.Size(1363, 163);
+            this.textbox_log.Size = new System.Drawing.Size(1533, 203);
             this.textbox_log.TabIndex = 8;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(1416, 60);
+            this.dataGridView1.Location = new System.Drawing.Point(1593, 75);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(464, 474);
+            this.dataGridView1.Size = new System.Drawing.Size(522, 592);
             this.dataGridView1.TabIndex = 9;
             // 
             // menuStrip1
@@ -118,7 +124,8 @@
             this.databaseToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1902, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1898, 33);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -128,7 +135,7 @@
             this.seleToolStripMenuItem,
             this.selectVideoFileToolStripMenuItem});
             this.cameraToolStripMenuItem.Name = "cameraToolStripMenuItem";
-            this.cameraToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+            this.cameraToolStripMenuItem.Size = new System.Drawing.Size(74, 29);
             this.cameraToolStripMenuItem.Text = "Image";
             // 
             // seleToolStripMenuItem
@@ -137,13 +144,27 @@
             this.internalCameraToolStripMenuItem,
             this.externalCameraToolStripMenuItem});
             this.seleToolStripMenuItem.Name = "seleToolStripMenuItem";
-            this.seleToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.seleToolStripMenuItem.Size = new System.Drawing.Size(219, 30);
             this.seleToolStripMenuItem.Text = "Select camera";
+            // 
+            // internalCameraToolStripMenuItem
+            // 
+            this.internalCameraToolStripMenuItem.Name = "internalCameraToolStripMenuItem";
+            this.internalCameraToolStripMenuItem.Size = new System.Drawing.Size(219, 30);
+            this.internalCameraToolStripMenuItem.Text = "Internal camera";
+            this.internalCameraToolStripMenuItem.Click += new System.EventHandler(this.internalCameraToolStripMenuItem_Click);
+            // 
+            // externalCameraToolStripMenuItem
+            // 
+            this.externalCameraToolStripMenuItem.Name = "externalCameraToolStripMenuItem";
+            this.externalCameraToolStripMenuItem.Size = new System.Drawing.Size(219, 30);
+            this.externalCameraToolStripMenuItem.Text = "External camera";
+            this.externalCameraToolStripMenuItem.Click += new System.EventHandler(this.externalCameraToolStripMenuItem_Click);
             // 
             // selectVideoFileToolStripMenuItem
             // 
             this.selectVideoFileToolStripMenuItem.Name = "selectVideoFileToolStripMenuItem";
-            this.selectVideoFileToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.selectVideoFileToolStripMenuItem.Size = new System.Drawing.Size(219, 30);
             this.selectVideoFileToolStripMenuItem.Text = "Select video file";
             this.selectVideoFileToolStripMenuItem.Click += new System.EventHandler(this.selectVideoFileToolStripMenuItem_Click);
             // 
@@ -152,46 +173,33 @@
             this.databaseToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem});
             this.databaseToolStripMenuItem.Name = "databaseToolStripMenuItem";
-            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.databaseToolStripMenuItem.Size = new System.Drawing.Size(98, 29);
             this.databaseToolStripMenuItem.Text = "Database";
             // 
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(137, 26);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(160, 30);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // clearButton
             // 
             this.clearButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.clearButton.Location = new System.Drawing.Point(1416, 546);
+            this.clearButton.Location = new System.Drawing.Point(1593, 682);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.clearButton.Name = "clearButton";
-            this.clearButton.Size = new System.Drawing.Size(464, 56);
+            this.clearButton.Size = new System.Drawing.Size(522, 70);
             this.clearButton.TabIndex = 13;
             this.clearButton.Text = "Clear measures";
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
-            // internalCameraToolStripMenuItem
-            // 
-            this.internalCameraToolStripMenuItem.Name = "internalCameraToolStripMenuItem";
-            this.internalCameraToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
-            this.internalCameraToolStripMenuItem.Text = "Internal camera";
-            this.internalCameraToolStripMenuItem.Click += new System.EventHandler(this.internalCameraToolStripMenuItem_Click);
-            // 
-            // externalCameraToolStripMenuItem
-            // 
-            this.externalCameraToolStripMenuItem.Name = "externalCameraToolStripMenuItem";
-            this.externalCameraToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
-            this.externalCameraToolStripMenuItem.Text = "External camera";
-            this.externalCameraToolStripMenuItem.Click += new System.EventHandler(this.externalCameraToolStripMenuItem_Click);
-            // 
             // nowy
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.ClientSize = new System.Drawing.Size(1898, 844);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textbox_log);
@@ -201,8 +209,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "nowy";
             this.Text = "Camera measurement";
+            this.Load += new System.EventHandler(this.nowy_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -34,7 +34,6 @@ namespace Kamerka
 
             this.currentContour = contour;
 
-           // this.currentContour = contour;
             currentBoundingRect = CvInvoke.MinAreaRect(contour);
 
             PointF[] currentCenter = new PointF[1];
@@ -45,9 +44,7 @@ namespace Kamerka
             this.dblCurrentAspectRatio = (float)currentBoundingRect.Size.Width / (float)currentBoundingRect.Size.Height;
             this.blnStillBeingTracked = true;
             this.blnCurrentBlobFoundOrNewBlob = true;
-
             this.intNumOfConsecutiveFramesWithoutAMatch = 0;
-
         }
 
         public void predictNextPosition()
